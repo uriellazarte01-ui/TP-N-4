@@ -14,8 +14,8 @@
             color: #333;
         }
 
-        /* Estilo de la carátula */
-        header.caratula {
+/* Estilo de la carátula */
+header.caratula {
             text-align: center;
             border: 2px solid #333;
             padding: 40px;
@@ -23,13 +23,13 @@
             background-color: #f9f9f9;
         }
 
-        section {
+ section {
             margin-bottom: 30px;
             border-bottom: 1px solid #ccc;
             padding-bottom: 20px;
         }
 
-        .ohm-triangle {
+.ohm-triangle {
             text-align: center;
             font-size: 1.5em;
             border: 2px solid #333;
@@ -38,16 +38,15 @@
             padding: 10px;
         }
 
-        code {
+code {
             background: #f4f4f4;
             padding: 2px 5px;
             border-radius: 4px;
         }
     </style>
-</head>
+ </head>
 <body>
-
-    <!-- Nueva Carátula -->
+<!-- Nueva Carátula -->
     <header class="caratula">
         <h1>Trabajo Práctico N° 04</h1>
         <h2>Electricidad Básica y Aplicada</h2>
@@ -58,7 +57,7 @@
         <p><strong>Fecha:</strong> 22 de agosto de 2026</p>
     </header>
 
-    <section>
+<section>
         <h2>1. Instalación de la Puesta a Tierra</h2>
         <p>La puesta a tierra protege a las personas ante fallos de aislamiento desviando la corriente a tierra. Se compone de una pica de cobre enterrada a al menos 50 cm de profundidad.</p>
         <ol>
@@ -68,7 +67,7 @@
         </ol>
     </section>
 
-    <section>
+<section>
         <h2>2. Diccionario Eléctrico</h2>
         <ul>
             <li><strong>Amperio (A):</strong> Unidad de intensidad que circula por un circuito.</li>
@@ -78,23 +77,23 @@
         </ul>
     </section>
 
-    <section>
+ <section>
         <h2>3. Ley de Ohm</h2>
         <p>Establece que la intensidad es directamente proporcional al voltaje e inversamente proporcional a la resistencia: <code>I = V / R</code>.</p>
 
-        <div class="ohm-triangle">
+ <div class="ohm-triangle">
             <div>V</div>
             <div style="border-top: 1px solid #333;">I × R</div>
         </div>
 
-        <h3>Ejemplo 1: Circuito Serie</h3>
+<h3>Ejemplo 1: Circuito Serie</h3>
         <p>Fuente de 10V con dos resistencias en serie: R1 = 2Ω y R2 = 3Ω.</p>
         <ul>
             <li>Resistencia Total (RT) = R1 + R2 = 2Ω + 3Ω = 5Ω</li>
             <li>Intensidad (I) = V / RT = 10V / 5Ω = <strong>2 Amperios</strong></li>
         </ul>
 
-        <h3>Ejemplo 2: Circuito Paralelo</h3>
+ <h3>Ejemplo 2: Circuito Paralelo</h3>
         <p>Fuente de 10V con dos resistencias en paralelo: R1 = 2Ω y R2 = 2Ω.</p>
         <ul>
             <li>Resistencia Total (1/RT) = 1/R1 + 1/R2 = 1/2 + 1/2 = 1</li>
