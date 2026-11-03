@@ -100,7 +100,7 @@ code {
             <li>RT = 1Ω</li>
             <li>Intensidad (I) = V / RT = 10V / 1Ω = <strong>10 Amperios</strong></li>
         </ul>
-        <a href="HTMLpage2.html">TCP - Trabajo Práctico N.º 4</a>
+        <a href="HTMLpage2.html">TCP - Trabajo Práctico N.º 5</a>
     </section>
 
 </body>
